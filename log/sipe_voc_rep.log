@@ -1,0 +1,366 @@
+Epoch 1/5
+step:    0/ 3305 lossCLS:0.6907 lossGSC:0.0358 imps:1.7 lr: 0.1000 etc:Thu Mar 10 22:12:15 2022
+step:   10/ 3305 lossCLS:0.2611 lossGSC:0.0162 imps:11.8 lr: 0.0997 etc:Thu Mar 10 14:46:40 2022
+step:   20/ 3305 lossCLS:0.2304 lossGSC:0.0092 imps:16.8 lr: 0.0995 etc:Thu Mar 10 14:24:22 2022
+step:   30/ 3305 lossCLS:0.2266 lossGSC:0.0116 imps:20.6 lr: 0.0992 etc:Thu Mar 10 14:14:37 2022
+step:   40/ 3305 lossCLS:0.2136 lossGSC:0.0138 imps:22.4 lr: 0.0989 etc:Thu Mar 10 14:11:10 2022
+step:   50/ 3305 lossCLS:0.1818 lossGSC:0.0165 imps:23.7 lr: 0.0986 etc:Thu Mar 10 14:09:04 2022
+step:   60/ 3305 lossCLS:0.1654 lossGSC:0.0163 imps:24.6 lr: 0.0984 etc:Thu Mar 10 14:07:40 2022
+step:   70/ 3305 lossCLS:0.1665 lossGSC:0.0178 imps:25.2 lr: 0.0981 etc:Thu Mar 10 14:06:51 2022
+step:   80/ 3305 lossCLS:0.1367 lossGSC:0.0175 imps:25.7 lr: 0.0978 etc:Thu Mar 10 14:06:09 2022
+step:   90/ 3305 lossCLS:0.1408 lossGSC:0.0172 imps:26.2 lr: 0.0975 etc:Thu Mar 10 14:05:33 2022
+step:  100/ 3305 lossCLS:0.1283 lossGSC:0.0168 imps:26.6 lr: 0.0973 etc:Thu Mar 10 14:05:04 2022
+step:  110/ 3305 lossCLS:0.1092 lossGSC:0.0170 imps:26.9 lr: 0.0970 etc:Thu Mar 10 14:04:39 2022
+step:  120/ 3305 lossCLS:0.1202 lossGSC:0.0170 imps:27.2 lr: 0.0967 etc:Thu Mar 10 14:04:14 2022
+step:  130/ 3305 lossCLS:0.1055 lossGSC:0.0171 imps:27.5 lr: 0.0965 etc:Thu Mar 10 14:03:59 2022
+step:  140/ 3305 lossCLS:0.1041 lossGSC:0.0159 imps:27.5 lr: 0.0962 etc:Thu Mar 10 14:03:57 2022
+step:  150/ 3305 lossCLS:0.1116 lossGSC:0.0153 imps:27.7 lr: 0.0959 etc:Thu Mar 10 14:03:43 2022
+step:  160/ 3305 lossCLS:0.1127 lossGSC:0.0166 imps:27.8 lr: 0.0956 etc:Thu Mar 10 14:03:32 2022
+step:  170/ 3305 lossCLS:0.0992 lossGSC:0.0162 imps:28.0 lr: 0.0954 etc:Thu Mar 10 14:03:21 2022
+step:  180/ 3305 lossCLS:0.1060 lossGSC:0.0168 imps:28.2 lr: 0.0951 etc:Thu Mar 10 14:03:11 2022
+step:  190/ 3305 lossCLS:0.1082 lossGSC:0.0165 imps:28.3 lr: 0.0948 etc:Thu Mar 10 14:03:01 2022
+step:  200/ 3305 lossCLS:0.0987 lossGSC:0.0165 imps:28.5 lr: 0.0945 etc:Thu Mar 10 14:02:50 2022
+step:  210/ 3305 lossCLS:0.1058 lossGSC:0.0158 imps:28.6 lr: 0.0943 etc:Thu Mar 10 14:02:44 2022
+step:  220/ 3305 lossCLS:0.0933 lossGSC:0.0161 imps:28.7 lr: 0.0940 etc:Thu Mar 10 14:02:38 2022
+step:  230/ 3305 lossCLS:0.0878 lossGSC:0.0156 imps:28.8 lr: 0.0937 etc:Thu Mar 10 14:02:32 2022
+step:  240/ 3305 lossCLS:0.1112 lossGSC:0.0172 imps:28.9 lr: 0.0934 etc:Thu Mar 10 14:02:25 2022
+step:  250/ 3305 lossCLS:0.0940 lossGSC:0.0165 imps:29.0 lr: 0.0932 etc:Thu Mar 10 14:02:19 2022
+step:  260/ 3305 lossCLS:0.0904 lossGSC:0.0157 imps:29.1 lr: 0.0929 etc:Thu Mar 10 14:02:12 2022
+step:  270/ 3305 lossCLS:0.0908 lossGSC:0.0163 imps:29.1 lr: 0.0926 etc:Thu Mar 10 14:02:08 2022
+step:  280/ 3305 lossCLS:0.0828 lossGSC:0.0158 imps:29.2 lr: 0.0923 etc:Thu Mar 10 14:02:07 2022
+step:  290/ 3305 lossCLS:0.0821 lossGSC:0.0160 imps:29.1 lr: 0.0921 etc:Thu Mar 10 14:02:08 2022
+step:  300/ 3305 lossCLS:0.0880 lossGSC:0.0163 imps:29.2 lr: 0.0918 etc:Thu Mar 10 14:02:05 2022
+step:  310/ 3305 lossCLS:0.0797 lossGSC:0.0164 imps:29.2 lr: 0.0915 etc:Thu Mar 10 14:02:02 2022
+step:  320/ 3305 lossCLS:0.0868 lossGSC:0.0163 imps:29.2 lr: 0.0912 etc:Thu Mar 10 14:02:04 2022
+step:  330/ 3305 lossCLS:0.0937 lossGSC:0.0164 imps:29.2 lr: 0.0910 etc:Thu Mar 10 14:02:07 2022
+step:  340/ 3305 lossCLS:0.0984 lossGSC:0.0165 imps:29.1 lr: 0.0907 etc:Thu Mar 10 14:02:08 2022
+step:  350/ 3305 lossCLS:0.0881 lossGSC:0.0163 imps:29.2 lr: 0.0904 etc:Thu Mar 10 14:02:05 2022
+step:  360/ 3305 lossCLS:0.1022 lossGSC:0.0162 imps:29.2 lr: 0.0901 etc:Thu Mar 10 14:02:03 2022
+step:  370/ 3305 lossCLS:0.0918 lossGSC:0.0161 imps:29.3 lr: 0.0899 etc:Thu Mar 10 14:01:59 2022
+step:  380/ 3305 lossCLS:0.0804 lossGSC:0.0154 imps:29.3 lr: 0.0896 etc:Thu Mar 10 14:01:56 2022
+step:  390/ 3305 lossCLS:0.0791 lossGSC:0.0150 imps:29.4 lr: 0.0893 etc:Thu Mar 10 14:01:54 2022
+step:  400/ 3305 lossCLS:0.0784 lossGSC:0.0156 imps:29.4 lr: 0.0890 etc:Thu Mar 10 14:01:52 2022
+step:  410/ 3305 lossCLS:0.0972 lossGSC:0.0163 imps:29.4 lr: 0.0888 etc:Thu Mar 10 14:01:51 2022
+step:  420/ 3305 lossCLS:0.0776 lossGSC:0.0159 imps:29.4 lr: 0.0885 etc:Thu Mar 10 14:01:49 2022
+step:  430/ 3305 lossCLS:0.0876 lossGSC:0.0162 imps:29.5 lr: 0.0882 etc:Thu Mar 10 14:01:47 2022
+step:  440/ 3305 lossCLS:0.0900 lossGSC:0.0173 imps:29.5 lr: 0.0879 etc:Thu Mar 10 14:01:46 2022
+step:  450/ 3305 lossCLS:0.0883 lossGSC:0.0163 imps:29.5 lr: 0.0877 etc:Thu Mar 10 14:01:44 2022
+step:  460/ 3305 lossCLS:0.0834 lossGSC:0.0156 imps:29.6 lr: 0.0874 etc:Thu Mar 10 14:01:42 2022
+step:  470/ 3305 lossCLS:0.0925 lossGSC:0.0164 imps:29.6 lr: 0.0871 etc:Thu Mar 10 14:01:41 2022
+step:  480/ 3305 lossCLS:0.0756 lossGSC:0.0152 imps:29.7 lr: 0.0868 etc:Thu Mar 10 14:01:34 2022
+step:  490/ 3305 lossCLS:0.0881 lossGSC:0.0150 imps:29.7 lr: 0.0866 etc:Thu Mar 10 14:01:31 2022
+step:  500/ 3305 lossCLS:0.0785 lossGSC:0.0151 imps:29.8 lr: 0.0863 etc:Thu Mar 10 14:01:30 2022
+validating ... {'iou': array([0.79288635, 0.49043208, 0.29905373, 0.54197695, 0.39179012,
+       0.49763909, 0.7461943 , 0.60308012, 0.64424431, 0.20224494,
+       0.51302857, 0.44051402, 0.61325274, 0.6151208 , 0.67692742,
+       0.54998199, 0.46103338, 0.58297177, 0.43481994, 0.51470415,
+       0.40958095]), 'miou': 0.5248322724354337}
+step:  510/ 3305 lossCLS:0.0844 lossGSC:0.0147 imps:25.2 lr: 0.0860 etc:Thu Mar 10 14:06:51 2022
+step:  520/ 3305 lossCLS:0.0841 lossGSC:0.0157 imps:25.3 lr: 0.0857 etc:Thu Mar 10 14:06:44 2022
+step:  530/ 3305 lossCLS:0.0822 lossGSC:0.0146 imps:25.4 lr: 0.0854 etc:Thu Mar 10 14:06:37 2022
+step:  540/ 3305 lossCLS:0.0898 lossGSC:0.0152 imps:25.5 lr: 0.0852 etc:Thu Mar 10 14:06:31 2022
+step:  550/ 3305 lossCLS:0.0839 lossGSC:0.0158 imps:25.5 lr: 0.0849 etc:Thu Mar 10 14:06:24 2022
+step:  560/ 3305 lossCLS:0.0941 lossGSC:0.0151 imps:25.6 lr: 0.0846 etc:Thu Mar 10 14:06:18 2022
+step:  570/ 3305 lossCLS:0.0791 lossGSC:0.0150 imps:25.7 lr: 0.0843 etc:Thu Mar 10 14:06:12 2022
+step:  580/ 3305 lossCLS:0.0922 lossGSC:0.0148 imps:25.8 lr: 0.0841 etc:Thu Mar 10 14:06:05 2022
+step:  590/ 3305 lossCLS:0.0729 lossGSC:0.0151 imps:25.8 lr: 0.0838 etc:Thu Mar 10 14:06:01 2022
+step:  600/ 3305 lossCLS:0.0800 lossGSC:0.0153 imps:25.9 lr: 0.0835 etc:Thu Mar 10 14:05:58 2022
+step:  610/ 3305 lossCLS:0.0857 lossGSC:0.0160 imps:25.9 lr: 0.0832 etc:Thu Mar 10 14:05:53 2022
+step:  620/ 3305 lossCLS:0.0737 lossGSC:0.0159 imps:26.0 lr: 0.0829 etc:Thu Mar 10 14:05:50 2022
+step:  630/ 3305 lossCLS:0.0769 lossGSC:0.0159 imps:26.0 lr: 0.0827 etc:Thu Mar 10 14:05:46 2022
+step:  640/ 3305 lossCLS:0.0696 lossGSC:0.0158 imps:26.1 lr: 0.0824 etc:Thu Mar 10 14:05:41 2022
+step:  650/ 3305 lossCLS:0.0793 lossGSC:0.0149 imps:26.1 lr: 0.0821 etc:Thu Mar 10 14:05:37 2022
+step:  660/ 3305 lossCLS:0.0786 lossGSC:0.0152 imps:26.2 lr: 0.0818 etc:Thu Mar 10 14:05:30 2022
+Epoch 2/5
+step:  670/ 3305 lossCLS:0.0735 lossGSC:0.0154 imps:21.1 lr: 0.0816 etc:Thu Mar 10 14:05:38 2022
+step:  680/ 3305 lossCLS:0.0843 lossGSC:0.0153 imps:25.7 lr: 0.0813 etc:Thu Mar 10 14:05:32 2022
+step:  690/ 3305 lossCLS:0.0664 lossGSC:0.0151 imps:27.6 lr: 0.0810 etc:Thu Mar 10 14:05:27 2022
+step:  700/ 3305 lossCLS:0.0785 lossGSC:0.0166 imps:28.2 lr: 0.0807 etc:Thu Mar 10 14:05:23 2022
+step:  710/ 3305 lossCLS:0.0677 lossGSC:0.0149 imps:28.1 lr: 0.0804 etc:Thu Mar 10 14:05:21 2022
+step:  720/ 3305 lossCLS:0.0718 lossGSC:0.0155 imps:28.3 lr: 0.0802 etc:Thu Mar 10 14:05:19 2022
+step:  730/ 3305 lossCLS:0.0693 lossGSC:0.0146 imps:28.6 lr: 0.0799 etc:Thu Mar 10 14:05:15 2022
+step:  740/ 3305 lossCLS:0.0616 lossGSC:0.0157 imps:28.9 lr: 0.0796 etc:Thu Mar 10 14:05:11 2022
+step:  750/ 3305 lossCLS:0.0701 lossGSC:0.0148 imps:29.7 lr: 0.0793 etc:Thu Mar 10 14:05:03 2022
+step:  760/ 3305 lossCLS:0.0803 lossGSC:0.0145 imps:29.9 lr: 0.0790 etc:Thu Mar 10 14:04:58 2022
+step:  770/ 3305 lossCLS:0.0704 lossGSC:0.0151 imps:30.1 lr: 0.0788 etc:Thu Mar 10 14:04:54 2022
+step:  780/ 3305 lossCLS:0.0633 lossGSC:0.0164 imps:30.3 lr: 0.0785 etc:Thu Mar 10 14:04:49 2022
+step:  790/ 3305 lossCLS:0.0699 lossGSC:0.0152 imps:30.5 lr: 0.0782 etc:Thu Mar 10 14:04:45 2022
+step:  800/ 3305 lossCLS:0.0727 lossGSC:0.0156 imps:30.6 lr: 0.0779 etc:Thu Mar 10 14:04:41 2022
+step:  810/ 3305 lossCLS:0.0707 lossGSC:0.0153 imps:30.4 lr: 0.0776 etc:Thu Mar 10 14:04:39 2022
+step:  820/ 3305 lossCLS:0.0641 lossGSC:0.0140 imps:30.4 lr: 0.0774 etc:Thu Mar 10 14:04:37 2022
+step:  830/ 3305 lossCLS:0.0817 lossGSC:0.0153 imps:30.3 lr: 0.0771 etc:Thu Mar 10 14:04:35 2022
+step:  840/ 3305 lossCLS:0.0656 lossGSC:0.0154 imps:30.4 lr: 0.0768 etc:Thu Mar 10 14:04:31 2022
+step:  850/ 3305 lossCLS:0.0585 lossGSC:0.0141 imps:30.5 lr: 0.0765 etc:Thu Mar 10 14:04:28 2022
+step:  860/ 3305 lossCLS:0.0656 lossGSC:0.0146 imps:30.6 lr: 0.0762 etc:Thu Mar 10 14:04:24 2022
+step:  870/ 3305 lossCLS:0.0713 lossGSC:0.0157 imps:30.7 lr: 0.0760 etc:Thu Mar 10 14:04:20 2022
+step:  880/ 3305 lossCLS:0.0715 lossGSC:0.0151 imps:30.8 lr: 0.0757 etc:Thu Mar 10 14:04:16 2022
+step:  890/ 3305 lossCLS:0.0683 lossGSC:0.0156 imps:30.8 lr: 0.0754 etc:Thu Mar 10 14:04:13 2022
+step:  900/ 3305 lossCLS:0.0783 lossGSC:0.0151 imps:30.9 lr: 0.0751 etc:Thu Mar 10 14:04:10 2022
+step:  910/ 3305 lossCLS:0.0729 lossGSC:0.0153 imps:30.8 lr: 0.0748 etc:Thu Mar 10 14:04:09 2022
+step:  920/ 3305 lossCLS:0.0805 lossGSC:0.0142 imps:30.7 lr: 0.0746 etc:Thu Mar 10 14:04:08 2022
+step:  930/ 3305 lossCLS:0.0629 lossGSC:0.0146 imps:30.7 lr: 0.0743 etc:Thu Mar 10 14:04:06 2022
+step:  940/ 3305 lossCLS:0.0578 lossGSC:0.0145 imps:30.8 lr: 0.0740 etc:Thu Mar 10 14:04:02 2022
+step:  950/ 3305 lossCLS:0.0671 lossGSC:0.0148 imps:30.8 lr: 0.0737 etc:Thu Mar 10 14:03:59 2022
+step:  960/ 3305 lossCLS:0.0632 lossGSC:0.0148 imps:30.9 lr: 0.0734 etc:Thu Mar 10 14:03:56 2022
+step:  970/ 3305 lossCLS:0.0829 lossGSC:0.0140 imps:30.9 lr: 0.0731 etc:Thu Mar 10 14:03:53 2022
+step:  980/ 3305 lossCLS:0.0654 lossGSC:0.0151 imps:31.0 lr: 0.0729 etc:Thu Mar 10 14:03:49 2022
+step:  990/ 3305 lossCLS:0.0707 lossGSC:0.0151 imps:31.0 lr: 0.0726 etc:Thu Mar 10 14:03:46 2022
+step: 1000/ 3305 lossCLS:0.0694 lossGSC:0.0152 imps:31.0 lr: 0.0723 etc:Thu Mar 10 14:03:44 2022
+validating ... {'iou': array([0.79087287, 0.43485958, 0.26171275, 0.55395219, 0.36973715,
+       0.4485016 , 0.72867764, 0.58084356, 0.69368716, 0.2348285 ,
+       0.61418616, 0.40272933, 0.65253774, 0.59791612, 0.66172302,
+       0.56139111, 0.40216813, 0.64341218, 0.47655521, 0.49347382,
+       0.41969351]), 'miou': 0.5249266341872264}
+step: 1010/ 3305 lossCLS:0.0679 lossGSC:0.0155 imps:23.5 lr: 0.0720 etc:Thu Mar 10 14:06:51 2022
+step: 1020/ 3305 lossCLS:0.0739 lossGSC:0.0154 imps:23.7 lr: 0.0717 etc:Thu Mar 10 14:06:47 2022
+step: 1030/ 3305 lossCLS:0.0720 lossGSC:0.0152 imps:23.8 lr: 0.0715 etc:Thu Mar 10 14:06:43 2022
+step: 1040/ 3305 lossCLS:0.0619 lossGSC:0.0147 imps:24.0 lr: 0.0712 etc:Thu Mar 10 14:06:38 2022
+step: 1050/ 3305 lossCLS:0.0603 lossGSC:0.0161 imps:24.2 lr: 0.0709 etc:Thu Mar 10 14:06:34 2022
+step: 1060/ 3305 lossCLS:0.0738 lossGSC:0.0143 imps:24.3 lr: 0.0706 etc:Thu Mar 10 14:06:30 2022
+step: 1070/ 3305 lossCLS:0.0682 lossGSC:0.0143 imps:24.5 lr: 0.0703 etc:Thu Mar 10 14:06:25 2022
+step: 1080/ 3305 lossCLS:0.0657 lossGSC:0.0153 imps:24.6 lr: 0.0700 etc:Thu Mar 10 14:06:21 2022
+step: 1090/ 3305 lossCLS:0.0658 lossGSC:0.0147 imps:24.8 lr: 0.0698 etc:Thu Mar 10 14:06:17 2022
+step: 1100/ 3305 lossCLS:0.0672 lossGSC:0.0147 imps:24.9 lr: 0.0695 etc:Thu Mar 10 14:06:14 2022
+step: 1110/ 3305 lossCLS:0.0687 lossGSC:0.0146 imps:24.9 lr: 0.0692 etc:Thu Mar 10 14:06:12 2022
+step: 1120/ 3305 lossCLS:0.0762 lossGSC:0.0146 imps:25.0 lr: 0.0689 etc:Thu Mar 10 14:06:10 2022
+step: 1130/ 3305 lossCLS:0.0729 lossGSC:0.0143 imps:25.2 lr: 0.0686 etc:Thu Mar 10 14:06:06 2022
+step: 1140/ 3305 lossCLS:0.0665 lossGSC:0.0150 imps:25.3 lr: 0.0683 etc:Thu Mar 10 14:06:03 2022
+step: 1150/ 3305 lossCLS:0.0651 lossGSC:0.0146 imps:25.4 lr: 0.0681 etc:Thu Mar 10 14:05:59 2022
+step: 1160/ 3305 lossCLS:0.0587 lossGSC:0.0145 imps:25.5 lr: 0.0678 etc:Thu Mar 10 14:05:55 2022
+step: 1170/ 3305 lossCLS:0.0759 lossGSC:0.0143 imps:25.6 lr: 0.0675 etc:Thu Mar 10 14:05:51 2022
+step: 1180/ 3305 lossCLS:0.0690 lossGSC:0.0146 imps:25.7 lr: 0.0672 etc:Thu Mar 10 14:05:48 2022
+step: 1190/ 3305 lossCLS:0.0692 lossGSC:0.0148 imps:25.8 lr: 0.0669 etc:Thu Mar 10 14:05:45 2022
+step: 1200/ 3305 lossCLS:0.0607 lossGSC:0.0148 imps:25.9 lr: 0.0666 etc:Thu Mar 10 14:05:43 2022
+step: 1210/ 3305 lossCLS:0.0662 lossGSC:0.0138 imps:25.9 lr: 0.0663 etc:Thu Mar 10 14:05:42 2022
+step: 1220/ 3305 lossCLS:0.0691 lossGSC:0.0130 imps:26.0 lr: 0.0661 etc:Thu Mar 10 14:05:39 2022
+step: 1230/ 3305 lossCLS:0.0647 lossGSC:0.0148 imps:26.1 lr: 0.0658 etc:Thu Mar 10 14:05:36 2022
+step: 1240/ 3305 lossCLS:0.0693 lossGSC:0.0143 imps:26.2 lr: 0.0655 etc:Thu Mar 10 14:05:33 2022
+step: 1250/ 3305 lossCLS:0.0653 lossGSC:0.0146 imps:26.3 lr: 0.0652 etc:Thu Mar 10 14:05:29 2022
+step: 1260/ 3305 lossCLS:0.0555 lossGSC:0.0142 imps:26.3 lr: 0.0649 etc:Thu Mar 10 14:05:26 2022
+step: 1270/ 3305 lossCLS:0.0734 lossGSC:0.0147 imps:26.4 lr: 0.0646 etc:Thu Mar 10 14:05:23 2022
+step: 1280/ 3305 lossCLS:0.0591 lossGSC:0.0144 imps:26.5 lr: 0.0643 etc:Thu Mar 10 14:05:20 2022
+step: 1290/ 3305 lossCLS:0.0610 lossGSC:0.0145 imps:26.6 lr: 0.0641 etc:Thu Mar 10 14:05:18 2022
+step: 1300/ 3305 lossCLS:0.0618 lossGSC:0.0141 imps:26.6 lr: 0.0638 etc:Thu Mar 10 14:05:16 2022
+step: 1310/ 3305 lossCLS:0.0634 lossGSC:0.0132 imps:26.7 lr: 0.0635 etc:Thu Mar 10 14:05:14 2022
+step: 1320/ 3305 lossCLS:0.0608 lossGSC:0.0145 imps:26.7 lr: 0.0632 etc:Thu Mar 10 14:05:12 2022
+Epoch 3/5
+step: 1330/ 3305 lossCLS:0.0520 lossGSC:0.0154 imps:14.6 lr: 0.0629 etc:Thu Mar 10 14:05:23 2022
+step: 1340/ 3305 lossCLS:0.0625 lossGSC:0.0142 imps:20.4 lr: 0.0626 etc:Thu Mar 10 14:05:21 2022
+step: 1350/ 3305 lossCLS:0.0649 lossGSC:0.0144 imps:23.3 lr: 0.0623 etc:Thu Mar 10 14:05:18 2022
+step: 1360/ 3305 lossCLS:0.0697 lossGSC:0.0137 imps:25.1 lr: 0.0621 etc:Thu Mar 10 14:05:15 2022
+step: 1370/ 3305 lossCLS:0.0742 lossGSC:0.0147 imps:26.3 lr: 0.0618 etc:Thu Mar 10 14:05:13 2022
+step: 1380/ 3305 lossCLS:0.0617 lossGSC:0.0144 imps:27.1 lr: 0.0615 etc:Thu Mar 10 14:05:10 2022
+step: 1390/ 3305 lossCLS:0.0690 lossGSC:0.0143 imps:27.8 lr: 0.0612 etc:Thu Mar 10 14:05:07 2022
+step: 1400/ 3305 lossCLS:0.0658 lossGSC:0.0138 imps:28.2 lr: 0.0609 etc:Thu Mar 10 14:05:05 2022
+step: 1410/ 3305 lossCLS:0.0517 lossGSC:0.0141 imps:28.4 lr: 0.0606 etc:Thu Mar 10 14:05:03 2022
+step: 1420/ 3305 lossCLS:0.0566 lossGSC:0.0141 imps:28.5 lr: 0.0603 etc:Thu Mar 10 14:05:02 2022
+step: 1430/ 3305 lossCLS:0.0564 lossGSC:0.0143 imps:28.5 lr: 0.0600 etc:Thu Mar 10 14:05:01 2022
+step: 1440/ 3305 lossCLS:0.0606 lossGSC:0.0142 imps:28.8 lr: 0.0598 etc:Thu Mar 10 14:04:58 2022
+step: 1450/ 3305 lossCLS:0.0454 lossGSC:0.0145 imps:29.1 lr: 0.0595 etc:Thu Mar 10 14:04:56 2022
+step: 1460/ 3305 lossCLS:0.0470 lossGSC:0.0145 imps:29.4 lr: 0.0592 etc:Thu Mar 10 14:04:53 2022
+step: 1470/ 3305 lossCLS:0.0578 lossGSC:0.0146 imps:29.8 lr: 0.0589 etc:Thu Mar 10 14:04:50 2022
+step: 1480/ 3305 lossCLS:0.0603 lossGSC:0.0146 imps:29.9 lr: 0.0586 etc:Thu Mar 10 14:04:47 2022
+step: 1490/ 3305 lossCLS:0.0519 lossGSC:0.0148 imps:30.0 lr: 0.0583 etc:Thu Mar 10 14:04:45 2022
+step: 1500/ 3305 lossCLS:0.0582 lossGSC:0.0152 imps:30.1 lr: 0.0580 etc:Thu Mar 10 14:04:43 2022
+validating ... {'iou': array([0.79253155, 0.45073266, 0.28492017, 0.57591874, 0.43450175,
+       0.45996473, 0.73058337, 0.58066205, 0.60378022, 0.25047197,
+       0.65223107, 0.42218174, 0.67664039, 0.60482871, 0.65377192,
+       0.57647781, 0.42009622, 0.63612262, 0.44180773, 0.55818888,
+       0.40613419]), 'miou': 0.5339308794334802}
+step: 1510/ 3305 lossCLS:0.0669 lossGSC:0.0143 imps:19.2 lr: 0.0577 etc:Thu Mar 10 14:06:47 2022
+step: 1520/ 3305 lossCLS:0.0573 lossGSC:0.0135 imps:19.6 lr: 0.0574 etc:Thu Mar 10 14:06:44 2022
+step: 1530/ 3305 lossCLS:0.0481 lossGSC:0.0146 imps:19.9 lr: 0.0572 etc:Thu Mar 10 14:06:41 2022
+step: 1540/ 3305 lossCLS:0.0653 lossGSC:0.0141 imps:20.3 lr: 0.0569 etc:Thu Mar 10 14:06:38 2022
+step: 1550/ 3305 lossCLS:0.0732 lossGSC:0.0149 imps:20.6 lr: 0.0566 etc:Thu Mar 10 14:06:35 2022
+step: 1560/ 3305 lossCLS:0.0653 lossGSC:0.0139 imps:21.0 lr: 0.0563 etc:Thu Mar 10 14:06:33 2022
+step: 1570/ 3305 lossCLS:0.0606 lossGSC:0.0139 imps:21.2 lr: 0.0560 etc:Thu Mar 10 14:06:31 2022
+step: 1580/ 3305 lossCLS:0.0564 lossGSC:0.0134 imps:21.4 lr: 0.0557 etc:Thu Mar 10 14:06:29 2022
+step: 1590/ 3305 lossCLS:0.0443 lossGSC:0.0136 imps:21.7 lr: 0.0554 etc:Thu Mar 10 14:06:27 2022
+step: 1600/ 3305 lossCLS:0.0613 lossGSC:0.0148 imps:21.9 lr: 0.0551 etc:Thu Mar 10 14:06:25 2022
+step: 1610/ 3305 lossCLS:0.0590 lossGSC:0.0141 imps:22.1 lr: 0.0548 etc:Thu Mar 10 14:06:24 2022
+step: 1620/ 3305 lossCLS:0.0671 lossGSC:0.0135 imps:22.3 lr: 0.0545 etc:Thu Mar 10 14:06:22 2022
+step: 1630/ 3305 lossCLS:0.0499 lossGSC:0.0148 imps:22.4 lr: 0.0542 etc:Thu Mar 10 14:06:20 2022
+step: 1640/ 3305 lossCLS:0.0659 lossGSC:0.0145 imps:22.6 lr: 0.0540 etc:Thu Mar 10 14:06:17 2022
+step: 1650/ 3305 lossCLS:0.0564 lossGSC:0.0135 imps:22.9 lr: 0.0537 etc:Thu Mar 10 14:06:15 2022
+step: 1660/ 3305 lossCLS:0.0597 lossGSC:0.0146 imps:23.1 lr: 0.0534 etc:Thu Mar 10 14:06:12 2022
+step: 1670/ 3305 lossCLS:0.0551 lossGSC:0.0143 imps:23.2 lr: 0.0531 etc:Thu Mar 10 14:06:10 2022
+step: 1680/ 3305 lossCLS:0.0630 lossGSC:0.0150 imps:23.4 lr: 0.0528 etc:Thu Mar 10 14:06:08 2022
+step: 1690/ 3305 lossCLS:0.0592 lossGSC:0.0145 imps:23.6 lr: 0.0525 etc:Thu Mar 10 14:06:05 2022
+step: 1700/ 3305 lossCLS:0.0551 lossGSC:0.0144 imps:23.7 lr: 0.0522 etc:Thu Mar 10 14:06:04 2022
+step: 1710/ 3305 lossCLS:0.0502 lossGSC:0.0134 imps:23.8 lr: 0.0519 etc:Thu Mar 10 14:06:02 2022
+step: 1720/ 3305 lossCLS:0.0551 lossGSC:0.0143 imps:24.0 lr: 0.0516 etc:Thu Mar 10 14:06:00 2022
+step: 1730/ 3305 lossCLS:0.0633 lossGSC:0.0146 imps:24.2 lr: 0.0513 etc:Thu Mar 10 14:05:57 2022
+step: 1740/ 3305 lossCLS:0.0543 lossGSC:0.0144 imps:24.3 lr: 0.0510 etc:Thu Mar 10 14:05:54 2022
+step: 1750/ 3305 lossCLS:0.0667 lossGSC:0.0142 imps:24.5 lr: 0.0507 etc:Thu Mar 10 14:05:52 2022
+step: 1760/ 3305 lossCLS:0.0470 lossGSC:0.0144 imps:24.6 lr: 0.0504 etc:Thu Mar 10 14:05:50 2022
+step: 1770/ 3305 lossCLS:0.0528 lossGSC:0.0135 imps:24.7 lr: 0.0501 etc:Thu Mar 10 14:05:48 2022
+step: 1780/ 3305 lossCLS:0.0556 lossGSC:0.0141 imps:24.8 lr: 0.0499 etc:Thu Mar 10 14:05:45 2022
+step: 1790/ 3305 lossCLS:0.0540 lossGSC:0.0139 imps:25.0 lr: 0.0496 etc:Thu Mar 10 14:05:44 2022
+step: 1800/ 3305 lossCLS:0.0517 lossGSC:0.0149 imps:25.0 lr: 0.0493 etc:Thu Mar 10 14:05:43 2022
+step: 1810/ 3305 lossCLS:0.0431 lossGSC:0.0140 imps:25.1 lr: 0.0490 etc:Thu Mar 10 14:05:41 2022
+step: 1820/ 3305 lossCLS:0.0679 lossGSC:0.0141 imps:25.2 lr: 0.0487 etc:Thu Mar 10 14:05:39 2022
+step: 1830/ 3305 lossCLS:0.0548 lossGSC:0.0142 imps:25.3 lr: 0.0484 etc:Thu Mar 10 14:05:37 2022
+step: 1840/ 3305 lossCLS:0.0575 lossGSC:0.0147 imps:25.4 lr: 0.0481 etc:Thu Mar 10 14:05:35 2022
+step: 1850/ 3305 lossCLS:0.0475 lossGSC:0.0139 imps:25.5 lr: 0.0478 etc:Thu Mar 10 14:05:33 2022
+step: 1860/ 3305 lossCLS:0.0510 lossGSC:0.0140 imps:25.6 lr: 0.0475 etc:Thu Mar 10 14:05:32 2022
+step: 1870/ 3305 lossCLS:0.0596 lossGSC:0.0149 imps:25.7 lr: 0.0472 etc:Thu Mar 10 14:05:30 2022
+step: 1880/ 3305 lossCLS:0.0481 lossGSC:0.0150 imps:25.8 lr: 0.0469 etc:Thu Mar 10 14:05:28 2022
+step: 1890/ 3305 lossCLS:0.0464 lossGSC:0.0136 imps:25.8 lr: 0.0466 etc:Thu Mar 10 14:05:27 2022
+step: 1900/ 3305 lossCLS:0.0507 lossGSC:0.0130 imps:25.9 lr: 0.0463 etc:Thu Mar 10 14:05:26 2022
+step: 1910/ 3305 lossCLS:0.0433 lossGSC:0.0138 imps:26.0 lr: 0.0460 etc:Thu Mar 10 14:05:24 2022
+step: 1920/ 3305 lossCLS:0.0506 lossGSC:0.0137 imps:26.1 lr: 0.0457 etc:Thu Mar 10 14:05:22 2022
+step: 1930/ 3305 lossCLS:0.0568 lossGSC:0.0141 imps:26.1 lr: 0.0454 etc:Thu Mar 10 14:05:20 2022
+step: 1940/ 3305 lossCLS:0.0610 lossGSC:0.0140 imps:26.2 lr: 0.0451 etc:Thu Mar 10 14:05:18 2022
+step: 1950/ 3305 lossCLS:0.0609 lossGSC:0.0145 imps:26.3 lr: 0.0448 etc:Thu Mar 10 14:05:16 2022
+step: 1960/ 3305 lossCLS:0.0448 lossGSC:0.0136 imps:26.4 lr: 0.0445 etc:Thu Mar 10 14:05:14 2022
+step: 1970/ 3305 lossCLS:0.0532 lossGSC:0.0142 imps:26.4 lr: 0.0442 etc:Thu Mar 10 14:05:13 2022
+step: 1980/ 3305 lossCLS:0.0391 lossGSC:0.0137 imps:26.5 lr: 0.0439 etc:Thu Mar 10 14:05:11 2022
+Epoch 4/5
+step: 1990/ 3305 lossCLS:0.0530 lossGSC:0.0141 imps:15.7 lr: 0.0436 etc:Thu Mar 10 14:05:17 2022
+step: 2000/ 3305 lossCLS:0.0502 lossGSC:0.0136 imps:21.0 lr: 0.0433 etc:Thu Mar 10 14:05:16 2022
+validating ... {'iou': array([0.79070248, 0.44100464, 0.29220263, 0.55196396, 0.42143935,
+       0.50017267, 0.75075787, 0.59033168, 0.65851496, 0.29650318,
+       0.60376899, 0.45984486, 0.6578336 , 0.63267883, 0.65056327,
+       0.55940637, 0.41198722, 0.6536925 , 0.46891748, 0.51954574,
+       0.38766077]), 'miou': 0.5380710964365851}
+step: 2010/ 3305 lossCLS:0.0534 lossGSC:0.0139 imps:5.2 lr: 0.0430 etc:Thu Mar 10 14:07:06 2022
+step: 2020/ 3305 lossCLS:0.0506 lossGSC:0.0141 imps:6.6 lr: 0.0427 etc:Thu Mar 10 14:07:04 2022
+step: 2030/ 3305 lossCLS:0.0541 lossGSC:0.0135 imps:7.9 lr: 0.0424 etc:Thu Mar 10 14:07:01 2022
+step: 2040/ 3305 lossCLS:0.0440 lossGSC:0.0144 imps:9.1 lr: 0.0421 etc:Thu Mar 10 14:06:59 2022
+step: 2050/ 3305 lossCLS:0.0507 lossGSC:0.0148 imps:10.2 lr: 0.0418 etc:Thu Mar 10 14:06:57 2022
+step: 2060/ 3305 lossCLS:0.0419 lossGSC:0.0145 imps:11.1 lr: 0.0415 etc:Thu Mar 10 14:06:55 2022
+step: 2070/ 3305 lossCLS:0.0518 lossGSC:0.0142 imps:12.0 lr: 0.0412 etc:Thu Mar 10 14:06:53 2022
+step: 2080/ 3305 lossCLS:0.0540 lossGSC:0.0138 imps:12.8 lr: 0.0409 etc:Thu Mar 10 14:06:52 2022
+step: 2090/ 3305 lossCLS:0.0466 lossGSC:0.0130 imps:13.5 lr: 0.0406 etc:Thu Mar 10 14:06:50 2022
+step: 2100/ 3305 lossCLS:0.0534 lossGSC:0.0138 imps:14.2 lr: 0.0403 etc:Thu Mar 10 14:06:48 2022
+step: 2110/ 3305 lossCLS:0.0500 lossGSC:0.0142 imps:14.8 lr: 0.0400 etc:Thu Mar 10 14:06:47 2022
+step: 2120/ 3305 lossCLS:0.0468 lossGSC:0.0140 imps:15.3 lr: 0.0397 etc:Thu Mar 10 14:06:45 2022
+step: 2130/ 3305 lossCLS:0.0497 lossGSC:0.0141 imps:15.8 lr: 0.0394 etc:Thu Mar 10 14:06:44 2022
+step: 2140/ 3305 lossCLS:0.0502 lossGSC:0.0136 imps:16.4 lr: 0.0391 etc:Thu Mar 10 14:06:42 2022
+step: 2150/ 3305 lossCLS:0.0472 lossGSC:0.0144 imps:16.9 lr: 0.0388 etc:Thu Mar 10 14:06:40 2022
+step: 2160/ 3305 lossCLS:0.0430 lossGSC:0.0143 imps:17.3 lr: 0.0385 etc:Thu Mar 10 14:06:38 2022
+step: 2170/ 3305 lossCLS:0.0564 lossGSC:0.0136 imps:17.8 lr: 0.0382 etc:Thu Mar 10 14:06:36 2022
+step: 2180/ 3305 lossCLS:0.0493 lossGSC:0.0138 imps:18.2 lr: 0.0379 etc:Thu Mar 10 14:06:34 2022
+step: 2190/ 3305 lossCLS:0.0513 lossGSC:0.0142 imps:18.6 lr: 0.0376 etc:Thu Mar 10 14:06:32 2022
+step: 2200/ 3305 lossCLS:0.0522 lossGSC:0.0145 imps:18.9 lr: 0.0373 etc:Thu Mar 10 14:06:30 2022
+step: 2210/ 3305 lossCLS:0.0537 lossGSC:0.0145 imps:19.2 lr: 0.0370 etc:Thu Mar 10 14:06:28 2022
+step: 2220/ 3305 lossCLS:0.0467 lossGSC:0.0137 imps:19.5 lr: 0.0367 etc:Thu Mar 10 14:06:27 2022
+step: 2230/ 3305 lossCLS:0.0544 lossGSC:0.0141 imps:19.8 lr: 0.0364 etc:Thu Mar 10 14:06:26 2022
+step: 2240/ 3305 lossCLS:0.0547 lossGSC:0.0144 imps:20.1 lr: 0.0361 etc:Thu Mar 10 14:06:24 2022
+step: 2250/ 3305 lossCLS:0.0576 lossGSC:0.0137 imps:20.4 lr: 0.0358 etc:Thu Mar 10 14:06:22 2022
+step: 2260/ 3305 lossCLS:0.0479 lossGSC:0.0142 imps:20.7 lr: 0.0355 etc:Thu Mar 10 14:06:20 2022
+step: 2270/ 3305 lossCLS:0.0447 lossGSC:0.0134 imps:21.0 lr: 0.0352 etc:Thu Mar 10 14:06:18 2022
+step: 2280/ 3305 lossCLS:0.0473 lossGSC:0.0150 imps:21.2 lr: 0.0349 etc:Thu Mar 10 14:06:16 2022
+step: 2290/ 3305 lossCLS:0.0550 lossGSC:0.0141 imps:21.4 lr: 0.0346 etc:Thu Mar 10 14:06:14 2022
+step: 2300/ 3305 lossCLS:0.0500 lossGSC:0.0139 imps:21.6 lr: 0.0343 etc:Thu Mar 10 14:06:13 2022
+step: 2310/ 3305 lossCLS:0.0461 lossGSC:0.0137 imps:21.8 lr: 0.0339 etc:Thu Mar 10 14:06:12 2022
+step: 2320/ 3305 lossCLS:0.0513 lossGSC:0.0141 imps:22.0 lr: 0.0336 etc:Thu Mar 10 14:06:10 2022
+step: 2330/ 3305 lossCLS:0.0438 lossGSC:0.0140 imps:22.2 lr: 0.0333 etc:Thu Mar 10 14:06:09 2022
+step: 2340/ 3305 lossCLS:0.0619 lossGSC:0.0138 imps:22.3 lr: 0.0330 etc:Thu Mar 10 14:06:08 2022
+step: 2350/ 3305 lossCLS:0.0491 lossGSC:0.0133 imps:22.5 lr: 0.0327 etc:Thu Mar 10 14:06:07 2022
+step: 2360/ 3305 lossCLS:0.0495 lossGSC:0.0140 imps:22.6 lr: 0.0324 etc:Thu Mar 10 14:06:05 2022
+step: 2370/ 3305 lossCLS:0.0396 lossGSC:0.0134 imps:22.8 lr: 0.0321 etc:Thu Mar 10 14:06:03 2022
+step: 2380/ 3305 lossCLS:0.0393 lossGSC:0.0141 imps:23.0 lr: 0.0318 etc:Thu Mar 10 14:06:02 2022
+step: 2390/ 3305 lossCLS:0.0612 lossGSC:0.0136 imps:23.2 lr: 0.0315 etc:Thu Mar 10 14:06:00 2022
+step: 2400/ 3305 lossCLS:0.0575 lossGSC:0.0144 imps:23.4 lr: 0.0312 etc:Thu Mar 10 14:05:57 2022
+step: 2410/ 3305 lossCLS:0.0476 lossGSC:0.0137 imps:23.5 lr: 0.0309 etc:Thu Mar 10 14:05:55 2022
+step: 2420/ 3305 lossCLS:0.0491 lossGSC:0.0141 imps:23.7 lr: 0.0305 etc:Thu Mar 10 14:05:54 2022
+step: 2430/ 3305 lossCLS:0.0451 lossGSC:0.0144 imps:23.8 lr: 0.0302 etc:Thu Mar 10 14:05:52 2022
+step: 2440/ 3305 lossCLS:0.0424 lossGSC:0.0129 imps:23.9 lr: 0.0299 etc:Thu Mar 10 14:05:51 2022
+step: 2450/ 3305 lossCLS:0.0415 lossGSC:0.0145 imps:24.0 lr: 0.0296 etc:Thu Mar 10 14:05:50 2022
+step: 2460/ 3305 lossCLS:0.0442 lossGSC:0.0133 imps:24.1 lr: 0.0293 etc:Thu Mar 10 14:05:49 2022
+step: 2470/ 3305 lossCLS:0.0513 lossGSC:0.0136 imps:24.3 lr: 0.0290 etc:Thu Mar 10 14:05:47 2022
+step: 2480/ 3305 lossCLS:0.0511 lossGSC:0.0133 imps:24.4 lr: 0.0287 etc:Thu Mar 10 14:05:45 2022
+step: 2490/ 3305 lossCLS:0.0479 lossGSC:0.0136 imps:24.5 lr: 0.0284 etc:Thu Mar 10 14:05:44 2022
+step: 2500/ 3305 lossCLS:0.0417 lossGSC:0.0134 imps:24.6 lr: 0.0281 etc:Thu Mar 10 14:05:42 2022
+validating ... {'iou': array([0.79404107, 0.46194577, 0.30574783, 0.57871469, 0.4041041 ,
+       0.4868531 , 0.76179645, 0.58236305, 0.67426671, 0.26738603,
+       0.64273618, 0.47403705, 0.66558188, 0.61497181, 0.65747454,
+       0.56521033, 0.4200116 , 0.65073858, 0.43636006, 0.55787204,
+       0.412032  ]), 'miou': 0.5435354691482936}
+step: 2510/ 3305 lossCLS:0.0518 lossGSC:0.0139 imps:21.3 lr: 0.0277 etc:Thu Mar 10 14:06:52 2022
+step: 2520/ 3305 lossCLS:0.0421 lossGSC:0.0136 imps:21.5 lr: 0.0274 etc:Thu Mar 10 14:06:51 2022
+step: 2530/ 3305 lossCLS:0.0418 lossGSC:0.0128 imps:21.6 lr: 0.0271 etc:Thu Mar 10 14:06:49 2022
+step: 2540/ 3305 lossCLS:0.0473 lossGSC:0.0138 imps:21.7 lr: 0.0268 etc:Thu Mar 10 14:06:48 2022
+step: 2550/ 3305 lossCLS:0.0396 lossGSC:0.0140 imps:21.8 lr: 0.0265 etc:Thu Mar 10 14:06:47 2022
+step: 2560/ 3305 lossCLS:0.0484 lossGSC:0.0137 imps:21.9 lr: 0.0262 etc:Thu Mar 10 14:06:46 2022
+step: 2570/ 3305 lossCLS:0.0450 lossGSC:0.0139 imps:22.0 lr: 0.0258 etc:Thu Mar 10 14:06:45 2022
+step: 2580/ 3305 lossCLS:0.0405 lossGSC:0.0128 imps:22.1 lr: 0.0255 etc:Thu Mar 10 14:06:43 2022
+step: 2590/ 3305 lossCLS:0.0550 lossGSC:0.0138 imps:22.2 lr: 0.0252 etc:Thu Mar 10 14:06:41 2022
+step: 2600/ 3305 lossCLS:0.0432 lossGSC:0.0136 imps:22.3 lr: 0.0249 etc:Thu Mar 10 14:06:40 2022
+step: 2610/ 3305 lossCLS:0.0379 lossGSC:0.0134 imps:22.4 lr: 0.0246 etc:Thu Mar 10 14:06:38 2022
+step: 2620/ 3305 lossCLS:0.0552 lossGSC:0.0139 imps:22.5 lr: 0.0243 etc:Thu Mar 10 14:06:36 2022
+step: 2630/ 3305 lossCLS:0.0578 lossGSC:0.0130 imps:22.6 lr: 0.0239 etc:Thu Mar 10 14:06:35 2022
+step: 2640/ 3305 lossCLS:0.0464 lossGSC:0.0137 imps:22.7 lr: 0.0236 etc:Thu Mar 10 14:06:33 2022
+Epoch 5/5
+step: 2650/ 3305 lossCLS:0.0513 lossGSC:0.0140 imps:17.5 lr: 0.0233 etc:Thu Mar 10 14:06:35 2022
+step: 2660/ 3305 lossCLS:0.0431 lossGSC:0.0147 imps:23.2 lr: 0.0230 etc:Thu Mar 10 14:06:34 2022
+step: 2670/ 3305 lossCLS:0.0467 lossGSC:0.0142 imps:26.3 lr: 0.0227 etc:Thu Mar 10 14:06:32 2022
+step: 2680/ 3305 lossCLS:0.0449 lossGSC:0.0145 imps:27.0 lr: 0.0223 etc:Thu Mar 10 14:06:31 2022
+step: 2690/ 3305 lossCLS:0.0398 lossGSC:0.0137 imps:27.5 lr: 0.0220 etc:Thu Mar 10 14:06:30 2022
+step: 2700/ 3305 lossCLS:0.0420 lossGSC:0.0134 imps:28.0 lr: 0.0217 etc:Thu Mar 10 14:06:29 2022
+step: 2710/ 3305 lossCLS:0.0378 lossGSC:0.0143 imps:28.3 lr: 0.0214 etc:Thu Mar 10 14:06:28 2022
+step: 2720/ 3305 lossCLS:0.0402 lossGSC:0.0134 imps:28.6 lr: 0.0210 etc:Thu Mar 10 14:06:26 2022
+step: 2730/ 3305 lossCLS:0.0498 lossGSC:0.0142 imps:28.7 lr: 0.0207 etc:Thu Mar 10 14:06:25 2022
+step: 2740/ 3305 lossCLS:0.0333 lossGSC:0.0133 imps:28.6 lr: 0.0204 etc:Thu Mar 10 14:06:24 2022
+step: 2750/ 3305 lossCLS:0.0365 lossGSC:0.0133 imps:28.8 lr: 0.0201 etc:Thu Mar 10 14:06:23 2022
+step: 2760/ 3305 lossCLS:0.0362 lossGSC:0.0137 imps:29.0 lr: 0.0197 etc:Thu Mar 10 14:06:22 2022
+step: 2770/ 3305 lossCLS:0.0322 lossGSC:0.0133 imps:29.2 lr: 0.0194 etc:Thu Mar 10 14:06:20 2022
+step: 2780/ 3305 lossCLS:0.0432 lossGSC:0.0141 imps:29.5 lr: 0.0191 etc:Thu Mar 10 14:06:19 2022
+step: 2790/ 3305 lossCLS:0.0396 lossGSC:0.0130 imps:29.7 lr: 0.0188 etc:Thu Mar 10 14:06:17 2022
+step: 2800/ 3305 lossCLS:0.0446 lossGSC:0.0136 imps:29.8 lr: 0.0184 etc:Thu Mar 10 14:06:16 2022
+step: 2810/ 3305 lossCLS:0.0409 lossGSC:0.0132 imps:29.9 lr: 0.0181 etc:Thu Mar 10 14:06:14 2022
+step: 2820/ 3305 lossCLS:0.0488 lossGSC:0.0142 imps:30.0 lr: 0.0178 etc:Thu Mar 10 14:06:13 2022
+step: 2830/ 3305 lossCLS:0.0366 lossGSC:0.0142 imps:30.0 lr: 0.0174 etc:Thu Mar 10 14:06:12 2022
+step: 2840/ 3305 lossCLS:0.0346 lossGSC:0.0139 imps:29.9 lr: 0.0171 etc:Thu Mar 10 14:06:11 2022
+step: 2850/ 3305 lossCLS:0.0403 lossGSC:0.0139 imps:29.8 lr: 0.0168 etc:Thu Mar 10 14:06:10 2022
+step: 2860/ 3305 lossCLS:0.0376 lossGSC:0.0137 imps:29.8 lr: 0.0165 etc:Thu Mar 10 14:06:10 2022
+step: 2870/ 3305 lossCLS:0.0468 lossGSC:0.0138 imps:29.7 lr: 0.0161 etc:Thu Mar 10 14:06:09 2022
+step: 2880/ 3305 lossCLS:0.0470 lossGSC:0.0136 imps:29.8 lr: 0.0158 etc:Thu Mar 10 14:06:08 2022
+step: 2890/ 3305 lossCLS:0.0300 lossGSC:0.0126 imps:29.9 lr: 0.0155 etc:Thu Mar 10 14:06:06 2022
+step: 2900/ 3305 lossCLS:0.0388 lossGSC:0.0138 imps:30.0 lr: 0.0151 etc:Thu Mar 10 14:06:05 2022
+step: 2910/ 3305 lossCLS:0.0487 lossGSC:0.0136 imps:30.1 lr: 0.0148 etc:Thu Mar 10 14:06:03 2022
+step: 2920/ 3305 lossCLS:0.0510 lossGSC:0.0136 imps:30.1 lr: 0.0144 etc:Thu Mar 10 14:06:02 2022
+step: 2930/ 3305 lossCLS:0.0344 lossGSC:0.0137 imps:30.2 lr: 0.0141 etc:Thu Mar 10 14:06:01 2022
+step: 2940/ 3305 lossCLS:0.0303 lossGSC:0.0139 imps:30.3 lr: 0.0138 etc:Thu Mar 10 14:05:59 2022
+step: 2950/ 3305 lossCLS:0.0473 lossGSC:0.0145 imps:30.3 lr: 0.0134 etc:Thu Mar 10 14:05:58 2022
+step: 2960/ 3305 lossCLS:0.0343 lossGSC:0.0130 imps:30.2 lr: 0.0131 etc:Thu Mar 10 14:05:57 2022
+step: 2970/ 3305 lossCLS:0.0383 lossGSC:0.0152 imps:30.2 lr: 0.0127 etc:Thu Mar 10 14:05:57 2022
+step: 2980/ 3305 lossCLS:0.0463 lossGSC:0.0131 imps:30.1 lr: 0.0124 etc:Thu Mar 10 14:05:56 2022
+step: 2990/ 3305 lossCLS:0.0436 lossGSC:0.0140 imps:30.1 lr: 0.0121 etc:Thu Mar 10 14:05:56 2022
+step: 3000/ 3305 lossCLS:0.0381 lossGSC:0.0138 imps:30.1 lr: 0.0117 etc:Thu Mar 10 14:05:55 2022
+validating ... {'iou': array([0.78743936, 0.43975395, 0.29363185, 0.55884885, 0.39846377,
+       0.48210578, 0.75236995, 0.57089667, 0.69602646, 0.27263182,
+       0.63336183, 0.47537731, 0.66632458, 0.61194775, 0.64812002,
+       0.550885  , 0.40576804, 0.63791128, 0.44357606, 0.53309847,
+       0.4259368 ]), 'miou': 0.537355980206527}
+step: 3010/ 3305 lossCLS:0.0463 lossGSC:0.0138 imps:23.6 lr: 0.0114 etc:Thu Mar 10 14:06:52 2022
+step: 3020/ 3305 lossCLS:0.0407 lossGSC:0.0137 imps:23.7 lr: 0.0110 etc:Thu Mar 10 14:06:51 2022
+step: 3030/ 3305 lossCLS:0.0382 lossGSC:0.0150 imps:23.8 lr: 0.0107 etc:Thu Mar 10 14:06:50 2022
+step: 3040/ 3305 lossCLS:0.0386 lossGSC:0.0139 imps:24.0 lr: 0.0103 etc:Thu Mar 10 14:06:49 2022
+step: 3050/ 3305 lossCLS:0.0387 lossGSC:0.0140 imps:24.1 lr: 0.0100 etc:Thu Mar 10 14:06:48 2022
+step: 3060/ 3305 lossCLS:0.0406 lossGSC:0.0139 imps:24.3 lr: 0.0096 etc:Thu Mar 10 14:06:46 2022
+step: 3070/ 3305 lossCLS:0.0330 lossGSC:0.0138 imps:24.4 lr: 0.0093 etc:Thu Mar 10 14:06:45 2022
+step: 3080/ 3305 lossCLS:0.0410 lossGSC:0.0141 imps:24.5 lr: 0.0089 etc:Thu Mar 10 14:06:43 2022
+step: 3090/ 3305 lossCLS:0.0413 lossGSC:0.0136 imps:24.7 lr: 0.0085 etc:Thu Mar 10 14:06:42 2022
+step: 3100/ 3305 lossCLS:0.0495 lossGSC:0.0135 imps:25.0 lr: 0.0082 etc:Thu Mar 10 14:06:38 2022
+step: 3110/ 3305 lossCLS:0.0501 lossGSC:0.0135 imps:25.3 lr: 0.0078 etc:Thu Mar 10 14:06:35 2022
+step: 3120/ 3305 lossCLS:0.0349 lossGSC:0.0142 imps:25.4 lr: 0.0075 etc:Thu Mar 10 14:06:33 2022
+step: 3130/ 3305 lossCLS:0.0374 lossGSC:0.0142 imps:25.5 lr: 0.0071 etc:Thu Mar 10 14:06:32 2022
+step: 3140/ 3305 lossCLS:0.0411 lossGSC:0.0139 imps:25.6 lr: 0.0067 etc:Thu Mar 10 14:06:31 2022
+step: 3150/ 3305 lossCLS:0.0475 lossGSC:0.0138 imps:25.6 lr: 0.0064 etc:Thu Mar 10 14:06:30 2022
+step: 3160/ 3305 lossCLS:0.0379 lossGSC:0.0141 imps:25.7 lr: 0.0060 etc:Thu Mar 10 14:06:29 2022
+step: 3170/ 3305 lossCLS:0.0326 lossGSC:0.0142 imps:25.8 lr: 0.0056 etc:Thu Mar 10 14:06:28 2022
+step: 3180/ 3305 lossCLS:0.0323 lossGSC:0.0131 imps:25.8 lr: 0.0052 etc:Thu Mar 10 14:06:27 2022
+step: 3190/ 3305 lossCLS:0.0356 lossGSC:0.0135 imps:25.9 lr: 0.0049 etc:Thu Mar 10 14:06:26 2022
+step: 3200/ 3305 lossCLS:0.0450 lossGSC:0.0133 imps:25.9 lr: 0.0045 etc:Thu Mar 10 14:06:26 2022
+step: 3210/ 3305 lossCLS:0.0438 lossGSC:0.0143 imps:26.0 lr: 0.0041 etc:Thu Mar 10 14:06:25 2022
+step: 3220/ 3305 lossCLS:0.0343 lossGSC:0.0138 imps:26.1 lr: 0.0037 etc:Thu Mar 10 14:06:24 2022
+step: 3230/ 3305 lossCLS:0.0419 lossGSC:0.0137 imps:26.1 lr: 0.0033 etc:Thu Mar 10 14:06:23 2022
+step: 3240/ 3305 lossCLS:0.0353 lossGSC:0.0131 imps:26.2 lr: 0.0029 etc:Thu Mar 10 14:06:22 2022
+step: 3250/ 3305 lossCLS:0.0356 lossGSC:0.0140 imps:26.2 lr: 0.0025 etc:Thu Mar 10 14:06:22 2022
+step: 3260/ 3305 lossCLS:0.0342 lossGSC:0.0138 imps:26.2 lr: 0.0021 etc:Thu Mar 10 14:06:21 2022
+step: 3270/ 3305 lossCLS:0.0360 lossGSC:0.0139 imps:26.3 lr: 0.0017 etc:Thu Mar 10 14:06:20 2022
+step: 3280/ 3305 lossCLS:0.0335 lossGSC:0.0139 imps:26.3 lr: 0.0012 etc:Thu Mar 10 14:06:19 2022
+step: 3290/ 3305 lossCLS:0.0359 lossGSC:0.0139 imps:26.3 lr: 0.0008 etc:Thu Mar 10 14:06:19 2022
+step: 3300/ 3305 lossCLS:0.0444 lossGSC:0.0138 imps:26.4 lr: 0.0003 etc:Thu Mar 10 14:06:17 2022

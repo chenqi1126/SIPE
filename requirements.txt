@@ -1,0 +1,10 @@
+numpy
+cython
+imageio
+scikit-image
+opencv-python
+chainercv
+matplotlib
+tqdm
+tensorboardx
+git+https://github.com/lucasb-eyer/pydensecrf.git
