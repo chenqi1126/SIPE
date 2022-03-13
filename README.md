@@ -36,7 +36,7 @@ To train fully supervised segmentation models, we refer to [deeplab-pytorch](htt
 
 ## Results
 
-| Dataset         | Model       | mIoU (Train) | weight                                                       | Training log                     |
+| Dataset         | Model       | mIoU (Train) | Weight                                                       | Training log                     |
 | --------------- | ----------- | ------------ | ------------------------------------------------------------ | -------------------------------- |
 | PASCAL VOC 2012 | CVPR submit | 58.65        | [Download](https://drive.google.com/file/d/1-_GXZq-1gxcbR7FdY1888tnxBAE39R-P/view?usp=sharing) | [Logfile](log/sipe_voc.log)      |
 | PASCAL VOC 2012 | This repo   | 58.88        | [Download](https://drive.google.com/file/d/1YYYYXleRperCUrhcU4pT1eXybhlUQedW/view?usp=sharing) | [Logfile](log/sipe_voc_rep.log)  |
