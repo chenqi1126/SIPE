@@ -18,7 +18,7 @@ Weakly Supervised Semantic Segmentation (WSSS) based on image-level labels has a
 #### Step 1. Prepare Dataset
 
 - PASCAL VOC 2012: [Download](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/).
-- MS COCO 2014: [Images](https://cocodataset.org/#home) and [Label](https://drive.google.com/file/d/1Pm_OH8an5MzZh56QKTcdlXNI3RNmZB9d/view?usp=sharing).
+- MS COCO 2014: [Image](https://cocodataset.org/#home) and [Label](https://drive.google.com/file/d/1Pm_OH8an5MzZh56QKTcdlXNI3RNmZB9d/view?usp=sharing).
 
 #### Step 2. Train SIPE
 
