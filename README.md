@@ -44,7 +44,6 @@ To train fully supervised segmentation models, we refer to [deeplab-pytorch](htt
 | MS COCO 2014    | This repo   | 32.63        | [Download](https://drive.google.com/file/d/103gU8AmTDXSnebh2q9xihOSxw4yoPGZb/view?usp=sharing) | [Logfile](log/sipe_coco_rep.log) |
 
 ## Citation
-Please cite our paper if the code is helpful to your research.
 ```
 @InProceedings{Chen_2022_CVPR_SIPE,
     author = {Qi Chen, Lingxiao Yang, Jianhuang Lai, and Xiaohua Xie},
