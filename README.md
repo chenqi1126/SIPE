@@ -1,6 +1,6 @@
 # Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation
 
-<img style="zoom:15%" alt="framework" src='fig/framework1.png'>
+<img style="zoom:100%" alt="framework" src='fig/framework1.png'>
 
 The implementation of [**Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation**](https://arxiv.org/abs/2203.02909), Qi Chen, Lingxiao Yang, Jianhuang Lai, and Xiaohua Xie, CVPR 2022.
 
