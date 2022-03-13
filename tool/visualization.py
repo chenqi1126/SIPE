@@ -41,15 +41,9 @@ def generate_vis(p, gt, img, func_label2color, threshold=0.1, norm=True):
 	if threshold is not None:
 		prob[0,:,:] = np.power(1-np.max(prob[1:,:,:],axis=0,keepdims=True), 4)
 
-	CLS = ColorCLS(prob, func_label2color)
 	CAM = ColorCAM(prob, img)
-
-	# prob_crf = dense_crf(prob, img, n_classes=C, n_iters=1)
 	
-	# CLS_crf = ColorCLS(prob_crf, func_label2color)
-	CAM_crf = None#ColorCAM(prob_crf, img)
-	
-	return CLS, CAM, CAM_crf
+	return CAM
 
 def max_norm(p, version='torch', e=1e-5):
 	if version is 'torch':
