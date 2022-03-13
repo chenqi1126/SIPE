@@ -175,8 +175,8 @@ def train():
                 img_8 = visualization.convert_to_tf(img[0])
                 norm_cam = F.interpolate(norm_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
                 IS_cam = F.interpolate(IS_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
-                _, CAM, crf1 = visualization.generate_vis(norm_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
-                CLS_simi, IS_CAM, crf2 = visualization.generate_vis(IS_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
+                CAM = visualization.generate_vis(norm_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
+                IS_CAM = visualization.generate_vis(IS_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
               
                 # tf record
                 tblogger.add_scalar('lossCLS', lossCLS, optimizer.global_step)
