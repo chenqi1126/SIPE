@@ -1,4 +1,4 @@
-# Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation
+# Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation (SIPE)
 
 <img style="zoom:100%" alt="framework" src='fig/framework1.png'>
 
