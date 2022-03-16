@@ -117,8 +117,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # Inter-pixel Relation Network (IRNet)
     parser.add_argument("--num_workers", default=1, type=int)
-    parser.add_argument("--train_list", default="voc12/train_aug.txt", type=str)
-    parser.add_argument("--infer_list", default="voc12/train.txt", type=str)
+    parser.add_argument("--train_list", default="data/trainaug_voc.txt", type=str)
+    parser.add_argument("--infer_list", default="data/train_voc.txt", type=str)
     parser.add_argument("--session_name", default="exp", type=str)
     parser.add_argument("--voc12_root", default="../PascalVOC2012/VOCdevkit/VOC2012", type=str)
 
