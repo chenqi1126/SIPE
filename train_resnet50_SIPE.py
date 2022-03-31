@@ -24,14 +24,13 @@ def validate(model, data_loader):
 
     with torch.no_grad():
         preds = []
-        for iter, pack in enumerate(data_loader):
-            
+        for iter, pack in enumerate(data_loader):       
             img = pack['img'].cuda()
             label = pack['label'].cuda(non_blocking=True).unsqueeze(-1).unsqueeze(-1)
             label = F.pad(label, (0, 0, 0, 0, 1, 0), 'constant', 1.0)
 
             outputs = model.forward(img, label)
-            IS_cam = outputs["IS_cam"]
+            IS_cam = outputs['IS_cam']
             IS_cam = F.interpolate(IS_cam, img.shape[2:], mode='bilinear')
             IS_cam = IS_cam/(F.adaptive_max_pool2d(IS_cam, (1, 1)) + 1e-5)
             cls_labels_bkg = torch.argmax(IS_cam, 1)
@@ -104,7 +103,7 @@ def train():
     elif args.dataset == 'coco':
         args.tf_freq = 99999
         args.val_freq = 99999
-        dataset_root = "../ms_coco_14&15/images"
+        dataset_root = '../ms_coco_14&15/images'
         model = getattr(importlib.import_module(args.network), 'Net')(num_cls=81)
         train_dataset = data_coco.COCOClsDataset('data/train_' + args.dataset + '.txt', coco_root=dataset_root,
                                                                 resize_long=(320, 640), hor_flip=True,
@@ -119,7 +118,7 @@ def train():
     param_groups = model.trainable_parameters()
     optimizer = torchutils.PolyOptimizerSGD([
         {'params': param_groups[0], 'lr': args.lr, 'weight_decay': args.wt_dec},
-        {'params': param_groups[1], 'lr': 10*args.lr, 'weight_decay': args.wt_dec}
+        {'params': param_groups[1], 'lr': 10 * args.lr, 'weight_decay': args.wt_dec}
     ], lr=args.lr, weight_decay=args.wt_dec, max_step=max_step)
 
     model = torch.nn.DataParallel(model).cuda()
@@ -131,7 +130,7 @@ def train():
     bestiou = 0
     for ep in range(args.max_epoches):
 
-        print('Epoch %d/%d' % (ep+1, args.max_epoches))
+        print('Epoch %d/%d' % (ep + 1, args.max_epoches))
 
         for step, pack in enumerate(train_data_loader):
             img = pack['img'].cuda()
@@ -139,18 +138,18 @@ def train():
             label = pack['label'].cuda(non_blocking=True).unsqueeze(-1).unsqueeze(-1)
 
             valid_mask = pack['valid_mask'].cuda()
-            valid_mask[:,1:] = valid_mask[:,1:]*label
+            valid_mask[:,1:] = valid_mask[:,1:] * label
             valid_mask_lowres = F.interpolate(valid_mask, size=(h//16, w//16), mode='nearest')
 
             outputs = model.forward(img, valid_mask_lowres)
-            score = outputs["score"]
-            norm_cam = outputs["cam"]
-            IS_cam = outputs["IS_cam"]
+            score = outputs['score']
+            norm_cam = outputs['cam']
+            IS_cam = outputs['IS_cam']
             
             lossCLS = F.multilabel_soft_margin_loss(score, label)
 
-            IS_cam = IS_cam/(F.adaptive_max_pool2d(IS_cam, (1, 1)) + 1e-5)
-            lossGSC = torch.mean(torch.abs(norm_cam-IS_cam))
+            IS_cam /= F.adaptive_max_pool2d(IS_cam, (1, 1)) + 1e-5
+            lossGSC = torch.mean(torch.abs(norm_cam - IS_cam))
 
             losses = lossCLS + lossGSC
             avg_meter.add({'lossCLS': lossCLS.item(), 'lossGSC': lossGSC.item()})
@@ -160,7 +159,7 @@ def train():
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1)
             optimizer.step()
 
-            if (optimizer.global_step-1)%args.print_freq == 0:
+            if (optimizer.global_step - 1) % args.print_freq == 0:
                 timer.update_progress(optimizer.global_step / max_step)
 
                 print('step:%5d/%5d' % (optimizer.global_step - 1, max_step),
@@ -169,23 +168,25 @@ def train():
                       'imps:%.1f' % ((step + 1) * args.batch_size / timer.get_stage_elapsed()),
                       'lr: %.4f' % (optimizer.param_groups[0]['lr']),
                       'etc:%s' % (timer.str_est_finish()), flush=True)
-
-            if (optimizer.global_step-1)%args.tf_freq == 0:
-                # visualization
-                img_8 = visualization.convert_to_tf(img[0])
-                norm_cam = F.interpolate(norm_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
-                IS_cam = F.interpolate(IS_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
-                CAM = visualization.generate_vis(norm_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
-                IS_CAM = visualization.generate_vis(IS_cam, None, img_8,  func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
-              
+                
                 # tf record
                 tblogger.add_scalar('lossCLS', lossCLS, optimizer.global_step)
                 tblogger.add_scalar('lossGSC', lossGSC, optimizer.global_step)
                 tblogger.add_scalar('lr', optimizer.param_groups[0]['lr'], optimizer.global_step)
+
+            if (optimizer.global_step - 1) % args.tf_freq == 0:
+                # visualization
+                img_8 = visualization.convert_to_tf(img[0])
+                norm_cam = F.interpolate(norm_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
+                IS_cam = F.interpolate(IS_cam,img_8.shape[1:],mode='bilinear')[0].detach().cpu().numpy()
+                CAM = visualization.generate_vis(norm_cam, None, img_8, func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
+                IS_CAM = visualization.generate_vis(IS_cam, None, img_8, func_label2color=visualization.VOClabel2colormap, threshold=None, norm=False)
+                
+                # tf record
                 tblogger.add_images('CAM', CAM, optimizer.global_step)
                 tblogger.add_images('IS_CAM', IS_CAM, optimizer.global_step)
 
-            if (optimizer.global_step-1)%args.val_freq == 0 and optimizer.global_step>10:
+            if (optimizer.global_step-1) % args.val_freq == 0 and optimizer.global_step > 10:
                 miou = validate(model, val_data_loader)
                 torch.save({'net':model.module.state_dict()}, os.path.join(args.session_name, 'ckpt', 'iter_' + str(optimizer.global_step) + '.pth'))
                 if miou > bestiou:
