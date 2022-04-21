@@ -148,7 +148,7 @@ def train():
             
             lossCLS = F.multilabel_soft_margin_loss(score, label)
 
-            IS_cam /= F.adaptive_max_pool2d(IS_cam, (1, 1)) + 1e-5
+            IS_cam = IS_cam / (F.adaptive_max_pool2d(IS_cam, (1, 1)) + 1e-5)
             lossGSC = torch.mean(torch.abs(norm_cam - IS_cam))
 
             losses = lossCLS + lossGSC
