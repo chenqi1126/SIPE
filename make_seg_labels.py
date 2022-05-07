@@ -9,6 +9,7 @@ import numpy as np
 import importlib
 import os
 import imageio
+from PIL import Image
 
 from data import data_voc
 from tool import torchutils, indexing
@@ -51,8 +52,13 @@ def _work(process_id, model, dataset, args):
             rw_up = rw_up / torch.max(rw_up) 
             rw_pred = torch.argmax(rw_up, dim=0).cpu().numpy()
             rw_pred = keys[rw_pred]
-
+	    
             imageio.imsave(os.path.join(args.sem_seg_out_dir, img_name + '.png'), rw_pred.astype(np.uint8))
+	
+	    # show color map
+	    # out = Image.fromarray(rw_pred.astype(np.uint8), mode='P')
+            # out.putpalette(palette)
+            # out.save(os.path.join(os.path.join(args.sem_seg_out_dir, img_name + '_palette.png')))
 
             if process_id == n_gpus - 1 and iter % (len(databin) // 20) == 0:
                 print("%d " % ((5*iter+1)//(len(databin) // 20)), end='')
