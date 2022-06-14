@@ -9,7 +9,7 @@
 
 <img style="zoom:100%" alt="framework" src='fig/framework1.png'>
 
-The implementation of [**Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation**](https://arxiv.org/abs/2203.02909), Qi Chen, Lingxiao Yang, Jianhuang Lai, and Xiaohua Xie, CVPR 2022.
+The implementation of [**Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation**](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Self-Supervised_Image-Specific_Prototype_Exploration_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2022_paper.pdf), Qi Chen, Lingxiao Yang, Jianhuang Lai, and Xiaohua Xie, CVPR 2022.
 
 ## Abstract
 Weakly Supervised Semantic Segmentation (WSSS) based on image-level labels has attracted much attention due to low annotation costs. Existing methods often rely on Class Activation Mapping (CAM) that measures the correlation between image pixels and classifier weight. However, the classifier focuses only on the discriminative regions while ignoring other useful information in each image, resulting in incomplete localization maps. To address this issue, we propose a Self-supervised Image-specific Prototype Exploration (SIPE) that consists of an Image-specific Prototype Exploration (IPE) and a General-Specific Consistency (GSC) loss. Specifically, IPE tailors prototypes for every image to capture complete regions, formed our Image-Specific CAM (IS-CAM), which is realized by two sequential steps. In addition, GSC is proposed to construct the consistency of general CAM and our specific IS-CAM, which further optimizes the feature representation and empowers a self-correction ability of prototype exploration. Extensive experiments are conducted on PASCAL VOC 2012 and MS COCO 2014 segmentation benchmark and results show our SIPE achieves new state-of-the-art performance using only image-level labels.
@@ -53,9 +53,11 @@ To train fully supervised segmentation models, we refer to [deeplab-pytorch](htt
 ## Citation
 ```
 @InProceedings{Chen_2022_CVPR_SIPE,
-    author = {Qi Chen, Lingxiao Yang, Jianhuang Lai, and Xiaohua Xie},
-    title = {Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation},
-    booktitle = {Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year = {2022}
+    author    = {Chen, Qi and Yang, Lingxiao and Lai, Jian-Huang and Xie, Xiaohua},
+    title     = {Self-Supervised Image-Specific Prototype Exploration for Weakly Supervised Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {4288-4298}
 }
 ```
