@@ -36,12 +36,23 @@ To train fully supervised segmentation models, we refer to [deeplab-pytorch](htt
 
 ## Results
 
+#### Localization maps
+
 | Dataset         | Model       | mIoU (Train) | Weight                                                       | Training log                     |
 | --------------- | ----------- | ------------ | ------------------------------------------------------------ | -------------------------------- |
 | PASCAL VOC 2012 | CVPR submit | 58.65        | [Download](https://drive.google.com/file/d/1-_GXZq-1gxcbR7FdY1888tnxBAE39R-P/view?usp=sharing) | [Logfile](log/sipe_voc.log)      |
 | PASCAL VOC 2012 | This repo   | 58.88        | [Download](https://drive.google.com/file/d/1YYYYXleRperCUrhcU4pT1eXybhlUQedW/view?usp=sharing) | [Logfile](log/sipe_voc_rep.log)  |
 | MS COCO 2014    | CVPR submit | 34.41        | [Download](https://drive.google.com/file/d/1qWLvgjyd9eunyWJPyj02HcDQciiMKMu0/view?usp=sharing) | [Logfile](log/sipe_coco.log)     |
 | MS COCO 2014    | This repo   | 35.05        | [Download](https://drive.google.com/file/d/103gU8AmTDXSnebh2q9xihOSxw4yoPGZb/view?usp=sharing) | [Logfile](log/sipe_coco_rep.log) |
+
+#### Segmentation maps
+
+| Dataset         | Model       | mIoU (Val) | mIoU (Test)                                                       | Weight                     |
+| --------------- | ----------- | ------------ | ------------------------------------------------------------ | -------------------------------- |
+| PASCAL VOC 2012 | WideResNet38 | 68.2        | [69.5](http://host.robots.ox.ac.uk:8080/anonymous/NGICBM.html) | [Download](https://drive.google.com/file/d/1V2h-5znTXWQNvOq2cH1nACF9Ym6wd02-/view?usp=sharing)      |
+| PASCAL VOC 2012 | ResNet101   | 68.8        | [69.7](http://host.robots.ox.ac.uk:8080/anonymous/UU6VNX.html) | [Download](https://drive.google.com/file/d/1wN7-O-aXNtPgHPIvzr14tfaLssOc2FzI/view?usp=sharing)  |
+| MS COCO 2014    | WideResNet38 | 43.6       | - | [Download](https://drive.google.com/file/d/1w9jyHbcR8GzHMNo0QIelWQJFxC33wit4/view?usp=sharing)|
+| MS COCO 2014    | ResNet101   | 40.6        | - | [Download](https://drive.google.com/file/d/1WQUzL8wwRnu_9kWh-t-mItyyrMTsH8Kn/view?usp=sharing)|
 
 ## Citation
 ```
